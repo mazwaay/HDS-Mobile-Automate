@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Flash Sale,,,,2022-12-04 02:59:12,2022-12-04 03:00:04,52.048s,PASSED
+,,,,,,,
+Test Cases/Flash Sale,,,,2022-12-04 02:59:12,2022-12-04 03:00:04,51.733s,PASSED
+"startApplication(Source_APK, false)",,,,2022-12-04 02:59:13,2022-12-04 02:59:25,12.631s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-12-04 02:59:25,2022-12-04 02:59:35,10.079s,PASSED
+"tap(findTestObject(""Mobile Element/FlashSale_TextView""), 0)",,,,2022-12-04 02:59:35,2022-12-04 02:59:36,1.174s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-12-04 02:59:36,2022-12-04 02:59:39,3.018s,PASSED
+"tap(findTestObject(""Mobile Element/Product_TextView_NameItem""), 0)",,,,2022-12-04 02:59:39,2022-12-04 02:59:40,0.528s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-12-04 02:59:40,2022-12-04 02:59:43,3.008s,PASSED
+"tap(findTestObject(""Mobile Element/AddtoBag_Icon""), 0)",,,,2022-12-04 02:59:43,2022-12-04 02:59:43,0.325s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-12-04 02:59:43,2022-12-04 02:59:46,3.014s,PASSED
+"tap(findTestObject(""Mobile Element/YourBag_TextView""), 0)",,,,2022-12-04 02:59:46,2022-12-04 02:59:47,0.306s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-04 02:59:47,2022-12-04 02:59:52,5.005s,PASSED
+"tap(findTestObject(""Mobile Element/Checkout_Button""), 0)",,,,2022-12-04 02:59:52,2022-12-04 02:59:52,0.244s,PASSED
+"delay(10, STOP_ON_FAILURE)",,,,2022-12-04 02:59:52,2022-12-04 03:00:02,10.014s,PASSED
+"verifyElementText(findTestObject(""Mobile Element/Assert_Text""), ""Shopping cart"")",,,,2022-12-04 03:00:02,2022-12-04 03:00:04,1.887s,PASSED

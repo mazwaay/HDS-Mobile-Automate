@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flash Sale" time="52.048" tests="1" failures="0" errors="0">
+   <testsuite name="Flash Sale" tests="1" failures="0" errors="0" time="52.048" skipped="0" timestamp="2022-12-04 02:59:12" hostname="Mazway - 192.168.196.108" id="Test Suites/Flash Sale">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\HDS-Mobile-Automate\\Reports\\20221204_025908\\Flash Sale\\20221204_025908"/>
+         <property name="logFiles" value="C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\HDS-Mobile-Automate\\Reports\\20221204_025908\\Flash Sale\\20221204_025908\\appium.log, C:\\Users\\Mazway\\Documents\\QA Engineer\\Katalon Sample Project\\HDS-Mobile-Automate\\Reports\\20221204_025908\\Flash Sale\\20221204_025908\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Mazway - 192.168.196.108"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.196.108"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 10)"/>
+         <property name="deviceOSVersion" value="10"/>
+      </properties>
+      <testcase name="Test Cases/Flash Sale" time="51.733" classname="Test Cases/Flash Sale" status="PASSED">
+         <system-out><![CDATA[2022-12-04 02:59:12 - [TEST_CASE][PASSED] - Test Cases/Flash Sale: Test Cases/Flash Sale
+
+2022-12-04 02:59:13 - [TEST_STEP][PASSED] - startApplication(Source_APK, false): Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\HDS-Mobile-Automate\Mobile App\HDS.apk'
+
+2022-12-04 02:59:13 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-04 02:59:15 - [MESSAGE][INFO] - Appium server started on port 50,958
+
+2022-12-04 02:59:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Mazway\Documents\QA Engineer\Katalon Sample Project\HDS-Mobile-Automate\Mobile App\HDS.apk'
+
+2022-12-04 02:59:25 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-12-04 02:59:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-04 02:59:35 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Element/FlashSale_TextView"), 0): Tapped on element 'Object Repository/Mobile Element/FlashSale_TextView'
+
+2022-12-04 02:59:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-04 02:59:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Element/FlashSale_TextView'
+
+2022-12-04 02:59:36 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-12-04 02:59:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-04 02:59:39 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Element/Product_TextView_NameItem"), 0): Tapped on element 'Object Repository/Mobile Element/Product_TextView_NameItem'
+
+2022-12-04 02:59:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-04 02:59:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Element/Product_TextView_NameItem'
+
+2022-12-04 02:59:40 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-12-04 02:59:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-04 02:59:43 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Element/AddtoBag_Icon"), 0): Tapped on element 'Object Repository/Mobile Element/AddtoBag_Icon'
+
+2022-12-04 02:59:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-04 02:59:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Element/AddtoBag_Icon'
+
+2022-12-04 02:59:43 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-12-04 02:59:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-12-04 02:59:46 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Element/YourBag_TextView"), 0): Tapped on element 'Object Repository/Mobile Element/YourBag_TextView'
+
+2022-12-04 02:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-04 02:59:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Element/YourBag_TextView'
+
+2022-12-04 02:59:47 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-12-04 02:59:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-04 02:59:52 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile Element/Checkout_Button"), 0): Tapped on element 'Object Repository/Mobile Element/Checkout_Button'
+
+2022-12-04 02:59:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-04 02:59:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile Element/Checkout_Button'
+
+2022-12-04 02:59:52 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+2022-12-04 03:00:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-12-04 03:00:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Mobile Element/Assert_Text"), "Shopping cart"): Actual text and expected text of test object 'Object Repository/Mobile Element/Assert_Text' are matched.
+
+2022-12-04 03:00:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Mobile Element/Assert_Text' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-04 02:59:12 - [TEST_SUITE][PASSED] - Flash Sale: Test Cases/Flash Sale]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
