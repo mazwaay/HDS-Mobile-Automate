@@ -19,27 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.Source_APK, false)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.scrollToText('Paypay Design 1', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Flash Sale Elements/FlashSale_TextView'), 0)
+Mobile.tap(findTestObject('Scroll to Item Elements/Item_Fan Paypay Design 1'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+assert true
 
-Mobile.tap(findTestObject('Flash Sale Elements/Product_TextView_NameItem'), 0)
+Mobile.verifyElementExist(findTestObject('Scroll to Item Elements/Assert_Item'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/AddtoBag_Icon'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/YourBag_TextView'), 0)
-
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/Checkout_Button'), 0)
-
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementText(findTestObject('Flash Sale Elements/Assert_Text'), 'Shopping cart')
+Mobile.closeApplication()
 

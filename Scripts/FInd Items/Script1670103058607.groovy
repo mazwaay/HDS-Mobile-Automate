@@ -19,27 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication(GlobalVariable.Source_APK, false)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/FlashSale_TextView'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/Product_TextView_NameItem'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/AddtoBag_Icon'), 0)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Flash Sale Elements/YourBag_TextView'), 0)
+Mobile.tap(findTestObject('Find items Elements/newItems_TextView'), 0)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Flash Sale Elements/Checkout_Button'), 0)
+Mobile.tap(findTestObject('Object Repository/Find items Elements/findItems_Icon'), 0)
 
-Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Object Repository/Find items Elements/searchBox_Items'), 'bearbrand', 0)
 
-Mobile.verifyElementText(findTestObject('Flash Sale Elements/Assert_Text'), 'Shopping cart')
+Mobile.tapAtPosition(1000, 2190)
+
+Mobile.verifyElementText(findTestObject('Find items Elements/assertText'), '1 item found')
+
+Mobile.closeApplication()
 
